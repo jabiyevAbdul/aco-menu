@@ -1,0 +1,21 @@
+#accordion .active {
+  height: 80px;
+  visibility: visible;
+}
+
+#accordion button {
+  width: 100%;
+  border: 1px solid blue;
+  background-color: #62d246;
+  color: #1500ff;
+  padding: 20px;
+}
+
+#accordion p {
+  margin: 0%;
+  height: 0;
+  -webkit-transition: 1s ease-in;
+  transition: 1s ease-in;
+  visibility: hidden;
+}
+/*# sourceMappingURL=style.css.map */
